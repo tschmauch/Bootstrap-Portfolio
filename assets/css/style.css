@@ -10,12 +10,16 @@ body {
 	flex-direction: column;
 }
 
-.container {
+.body {
+	background-color: #ccc
+}
+
+/* .container {
 	position: relative;
 	width: 44%;
 	float: left;
 	margin: 3%;
-}
+} */
 
 .text-block {
 	position: absolute;
@@ -27,23 +31,28 @@ body {
 	padding-right: 20px;
 	font-family: 'Open Sans', sans-serif;
 }
+.navbar{
+	background-color: #ccc;
+}
 
 .media img {
 width: 25%;
-float: left;
+/* float: left; */
 padding: 4%;
 }
 
 footer {
-	background-color: #424242;
-	color: #FEFFF1;
 	text-align: center;
-	padding: 20px 0;
-
+	position: relative;
 	bottom: 0;
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
 	clear: both;
+	margin-top: 2%;
+}
+
+.col-xs-12 {
+	text-align: center;
 }
 
 .container img {
@@ -52,73 +61,64 @@ footer {
 }
 
 #Bio {
-	width: 650px;
-	background-color: white;
-	position: relative;
+	background-color: #ccc;
 	font-family: 'Open Sans', sans-serif;
-	float: left;
-	margin: auto;
 	padding: .5%;
-	border-radius: 2.5%;
+	border-radius: 4%;
+	margin-bottom: 2%;
 }
 
 h2 {
 	text-align: center;
 }
 
-#content {
+/* #content {
 	width: 960px;
 	margin: auto;
 	margin-bottom: 20px;
 	overflow: hidden;
 	flex: 1 0 auto;
-}
+} */
 
 #portrait {
 	width: 33%;
-	position: relative;
 	float: left;
 	padding-right: 3%;
+	margin-top: 2%;
 }
+
 
 p {
 	font-size: larger;
 }
 
-header {
-	background-color: #424242;
-	color: #FEFFF1;
-	margin-bottom: 2%;
-	width: 100%;
-	font-family: 'Open Sans', sans-serif;
-}
-nav {
+/* nav {
 	position: relative;
 	float: right;
 	width: 33%;
 	height: 100%;
-}
+} */
 
-ul {
+/* ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 5%;
-}
+} */
 
-li {
+/* li {
 	display: inline;
 	padding: 5%;
-}
+} */
 
-h1 {
+/* h1 {
 	float: left;
 	position: relative;
 	left: 2%;
 	background-color: none;
 	padding: 8px;
-}
+} */
 
-#about {
+/* #about {
 color: #FEFFF1;
 }
 
@@ -128,31 +128,31 @@ color: #FEFFF1;
 
 #contact {
 		color: #FEFFF1;
-		}
+		} */
 
 hr {
 	display: block;
 	height: 1px;
 	border: 0;
-	border-top: 2px solid darkslategray;
+	border-top: 1px solid darkslategray;
 	margin: 1em 0;
 	padding: 0;
 }
 #medialinks {
-	margin: auto;
-	position: relative;
-	right: 0;
-	background-color: white;
-	width: 270px;
-	float: right;
-	padding: .5%;
-	border-radius: 2.5%;
+	background-color: #ccc;
+	border-radius: 4%;
+	max-height:50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+	float: left;
 }
 
 #medialinks img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	width: 100px;
 }
 
 #medialinks h3 {
@@ -171,12 +171,8 @@ hr {
 }
 
 #contactme {
-	width: 650px;
 	background-color: white;
-	position: relative;
 	font-family: 'Open Sans', sans-serif;
-	float: left;
-	margin: auto;
 	padding: .5%;
 	border-radius: 2.5%;
 }
@@ -187,13 +183,13 @@ hr {
 
 textarea { height: auto; }
 
-a {
+/* a {
 	color: #FEFFF1;
 	text-decoration: none;
-}
-.navigation {
+} */
+/* .navigation {
 	background-color: 	;
 	padding: 1%;
 	padding-right, padding-left: 2.5%;
 	border-radius: 15%;
-}
+} */
