@@ -11,7 +11,12 @@ body {
 }
 
 .body {
-	background-color: #ccc
+	background-color: #ccc;
+	margin-right: 50px;
+	padding: 15px;
+	border-radius: 5px 17px;
+	box-shadow: 5px 5px 3px #666;
+	margin-bottom: 50px;
 }
 
 /* .container {
@@ -66,6 +71,8 @@ footer {
 	padding: .5%;
 	border-radius: 4%;
 	margin-bottom: 2%;
+	border-radius: 5px 17px;
+	box-shadow: 5px 5px 3px #666;
 }
 
 h2 {
@@ -140,7 +147,6 @@ hr {
 }
 #medialinks {
 	background-color: #ccc;
-	border-radius: 4%;
 	max-height:50%;
 	margin-left: auto;
 	margin-right: auto;
@@ -148,6 +154,8 @@ hr {
 	margin-bottom: 50px;
 	padding: 5px;
 	overflow: hidden;
+	border-radius: 5px 17px;
+	box-shadow: 5px 5px 3px #666;
 }
 
 #medialinks img {
@@ -169,13 +177,14 @@ hr {
 	float: left;
 	margin: auto;
 	padding: .5%;
-	border-radius: 2.5%;
 	margin-right: 50px;
 	margin-bottom: 50px;
 	overflow: hidden;
+	border-radius: 5px 17px;
+	box-shadow: 5px 5px 3px #666;
 }
 
-.col-md-8 {
+.stock {
 	margin-left: 16.666666666%;
 }
 
@@ -183,7 +192,9 @@ hr {
 	background-color: white;
 	font-family: 'Open Sans', sans-serif;
 	padding: .5%;
-	border-radius: 2.5%;
+	border-radius: 5px 17px;
+	box-shadow: 5px 5px 3px #666;
+	margin-bottom: 50px;
 }
 
 .field {
